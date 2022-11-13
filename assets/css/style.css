@@ -76,19 +76,24 @@ a {
 .card {
   display: grid;
   grid-template-columns: 1fr;
+  justify-content: space-evenly;
   gap: 2rem;
+  padding: 2rem;
+}
+@media (min-width: 62rem) {
+  .card {
+    gap: 5rem;
+    padding: 4rem;
+  }
 }
 .card--sedans {
   background-color: var(--clr-bright-orange);
-  padding: 2.4rem;
 }
 .card--suvs {
   background-color: var(--clr-cyan);
-  padding: 2.4rem;
 }
 .card--luxery {
   background-color: var(--clr-dark-cyan);
-  padding: 2.4rem;
 }
 .card__title {
   font-family: var(--ff-secondary);
