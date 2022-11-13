@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+:root {
+  --clr-bright-orange: hsl(31, 77%, 52%);
+  --clr-cyan: hsl(184, 100%, 22%);
+  --clr-dark-cyan: hsl(179, 100%, 13%);
+  --clr-transparent-white: hsl(0, 0%, 100%, 0.75);
+  --clr-very-light: hsl(0, 0%, 95%);
+  --ff-primary: "Lexend Deca", sans-serif;
+  --ff-secondary: "Big Shoulders Display", cursive;
+  --fs-400: 1.5rem;
+  --line-height: 1.5;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-400);
+  background-color: var(--clr-very-light);
+  color: var(--clr-transparent-white);
+  line-height: var(--line-height);
+  max-width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+  justify-content: center;
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 37.5rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  margin: 2rem;
+}
+@media (min-width: 62rem) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 120rem;
+  }
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+.card--sedans {
+  background-color: var(--clr-bright-orange);
+  padding: 2.4rem;
+}
+.card--suvs {
+  background-color: var(--clr-cyan);
+  padding: 2.4rem;
+}
+.card--luxery {
+  background-color: var(--clr-dark-cyan);
+  padding: 2.4rem;
+}
+.card__title {
+  font-family: var(--ff-secondary);
+  font-size: 2.8rem;
+  color: var(--clr-transparent-white);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.card__description {
+  font-family: var(--ff-primary);
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.btn {
+  background-color: var(--clr-very-light);
+  padding: 1.2rem 3.6rem;
+  border-radius: 2.5rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.btn--sedan {
+  color: var(--clr-bright-orange);
+}
+.btn--sedan:hover {
+  color: var(--clr-very-light);
+  background-color: var(--clr-bright-orange);
+  border: 1px solid var(--clr-very-light);
+}
+.btn--suvs {
+  color: var(--clr-cyan);
+}
+.btn--suvs:hover {
+  color: var(--clr-very-light);
+  background-color: var(--clr-cyan);
+  border: 1px solid var(--clr-very-light);
+}
+.btn--luxery {
+  color: var(--clr-dark-cyan);
+}
+.btn--luxery:hover {
+  color: var(--clr-very-light);
+  background-color: var(--clr-dark-cyan);
+  border: 1px solid var(--clr-very-light);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
