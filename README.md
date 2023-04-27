@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/profile/digitallimat)
-- Live Site URL: [Github](https://digitallimat.github.io/three-column-preview-card-component/)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/profile/digitaltamildev)
+- Live Site URL: [Github](https://digitaltamildev.github.io/three-column-preview-card-component/)
 
 
 ## My process
@@ -63,9 +63,9 @@ Users should be able to:
 
 ## Author
 
-- Website - [Jeeva](https://www.digitallimat.com)
-- Frontend Mentor - [@digitallimat](https://www.frontendmentor.io/profile/digitallimat)
-- Twitter - [@digitallimat](https://www.twitter.com/digitallimat)
+- Digitaltamil.dev - [digitaltamildev](https://digitaltamil.dev)
+- Frontend Mentor - [@digitaltamildev](https://www.frontendmentor.io/profile/digitaltamildev)
+- Twitter - [@digitaltamildev](https://www.twitter.com/digitaltamildev)
 
 ## Acknowledgments
 
